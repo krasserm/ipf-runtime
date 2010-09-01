@@ -1,0 +1,6 @@
+The IPF Runtime project provides an OSGi-based runtime environment for "IPF":http://github.com/krasserm/ipf applications. The IPF Runtime is an IPF distribution that is running on the Equinox OSGi platform. Find out more in the "IPF Runtime Wiki":http://repo.openehealth.org/confluence/display/ipftools/IPF+Runtime.
+
+h2. History
+
+The project was originally developed at the "Gforge IPF Tools Subversion repository":http://gforge.openehealth.org/svn/ipf-tools/ (requires access with username _anonymous_ and empty password).  The project history has not been imported.
+ 
