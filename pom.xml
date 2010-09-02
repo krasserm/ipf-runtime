@@ -28,7 +28,7 @@
 
         <!-- Dependency version properties -->
         <activemq-version>5.3.0</activemq-version>
-        <camel-version>2.3.0</camel-version>
+        <camel-version>2.4.0</camel-version>
         <commons-management-version>1.0</commons-management-version>
         <cxf-version>2.2.8</cxf-version>
         <equinox-cm-version>1.0.100-v20090520-1800</equinox-cm-version>
@@ -94,7 +94,7 @@
         <servlet-api-version>2.5-p1</servlet-api-version>
         <serializer-version>2.7.1-v200806030322</serializer-version>
         <slf4j-version>1.5.0</slf4j-version>
-        <spring-framework-version>2.5.6.A</spring-framework-version>
+        <spring-framework-version>3.0.3.RELEASE</spring-framework-version>
         <spring-osgi-version>1.2.0</spring-osgi-version>
         <xalan-version>2.7.1-p1</xalan-version>
         <xerces-impl-osgi-version>2.9.0-v200805270400</xerces-impl-osgi-version>
@@ -356,11 +356,6 @@
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
-            <artifactId>camel-osgi</artifactId>
-            <version>${camel-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
             <artifactId>camel-spring</artifactId>
             <version>${camel-version}</version>
         </dependency>
@@ -528,6 +523,16 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>org.springframework.web</artifactId>
+            <version>${spring-framework-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.asm</artifactId>
+            <version>${spring-framework-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.expression</artifactId>
             <version>${spring-framework-version}</version>
         </dependency>
         <dependency>

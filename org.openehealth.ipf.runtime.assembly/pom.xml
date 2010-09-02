@@ -113,7 +113,6 @@
             <param>mvn:xml-resolver/xml-resolver/${xml-resolver-version}@nostart</param>
             <param>mvn:org.apache.activemq/activemq-core/${activemq-version}@nostart</param>
             <param>mvn:org.apache.activemq/kahadb/${activemq-version}@nostart</param>
-            <param>mvn:org.apache.camel/camel-osgi/${camel-version}@start</param>
             <param>mvn:org.apache.camel/camel-spring/${camel-version}@nostart</param>
             <param>mvn:org.apache.camel/camel-jms/${camel-version}@nostart</param>
             <param>mvn:org.apache.camel/camel-mina/${camel-version}@nostart</param>
@@ -148,6 +147,8 @@
             <param>mvn:org.springframework/org.springframework.aop/${spring-framework-version}@start</param>
             <param>mvn:org.springframework/org.springframework.core/${spring-framework-version}@nostart</param>
             <param>mvn:org.springframework/org.springframework.web/${spring-framework-version}@nostart</param>
+            <param>mvn:org.springframework/org.springframework.asm/${spring-framework-version}@nostart</param>
+            <param>mvn:org.springframework/org.springframework.expression/${spring-framework-version}@nostart</param>
             <param>mvn:org.springframework.osgi/org.springframework.osgi.extender/${spring-osgi-version}@2</param>
             <param>mvn:org.springframework.osgi/org.springframework.osgi.core/${spring-osgi-version}@nostart</param>
             <param>mvn:org.springframework.osgi/org.springframework.osgi.io/${spring-osgi-version}@nostart</param>

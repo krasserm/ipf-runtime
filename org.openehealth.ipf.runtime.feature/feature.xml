@@ -534,13 +534,6 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.camel.camel-osgi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
          id="org.apache.camel.camel-spring"
          download-size="0"
          install-size="0"
@@ -560,7 +553,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-		 
+ 
       <plugin
          id="org.apache.camel.camel-core"
          download-size="0"
@@ -742,13 +735,13 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-		 
+ 
       <plugin
          id="org.springframework.orm"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>		 
+         unpack="false"/>
 
       <plugin
          id="org.springframework.jms"
@@ -786,12 +779,26 @@
          unpack="false"/>
 
       <plugin
+         id="org.springframework.asm"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.springframework.expression"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
          id="org.springframework.test"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>		 
-		 
+         unpack="false"/> 
+
       <plugin
          id="org.springframework.osgi.extender"
          download-size="0"
