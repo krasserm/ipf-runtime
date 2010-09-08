@@ -113,7 +113,7 @@
             <param>mvn:xml-resolver/xml-resolver/${xml-resolver-version}@nostart</param>
             <param>mvn:org.apache.activemq/activemq-core/${activemq-version}@nostart</param>
             <param>mvn:org.apache.activemq/kahadb/${activemq-version}@nostart</param>
-            <param>mvn:org.apache.camel/camel-spring/${camel-version}@nostart</param>
+            <param>mvn:org.apache.camel/camel-spring/${camel-version}@start</param>
             <param>mvn:org.apache.camel/camel-jms/${camel-version}@nostart</param>
             <param>mvn:org.apache.camel/camel-mina/${camel-version}@nostart</param>
             <param>mvn:org.apache.camel/camel-core/${camel-version}@start</param>
