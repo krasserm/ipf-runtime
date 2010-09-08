@@ -108,9 +108,9 @@
     </modules>
 
     <scm>
-        <connection>cm:svn:https://gforge.openehealth.org/svn/ipf-tools/runtime/trunk/runtime</connection>
-        <developerConnection>scm:svn:https://gforge.openehealth.org/svn/ipf-tools/runtime/trunk/runtime</developerConnection>
-        <url>scm:svn:https://gforge.openehealth.org/svn/ipf-tools/runtime/trunk/runtime</url>
+        <connection>scm:git:git@github.com:krasserm/ipf-runtime.git</connection>
+        <developerConnection>scm:git:git@github.com:krasserm/ipf-runtime.git</developerConnection>
+        <url>scm:git:git@github.com:krasserm/ipf-runtime.git</url>
     </scm>
 
 
