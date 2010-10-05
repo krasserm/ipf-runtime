@@ -110,6 +110,7 @@
             <param>mvn:org.apache.commons/com.springsource.org.apache.commons.codec/${springsource-commons-codec-version}@nostart</param>
             <param>mvn:org.objectweb.asm/com.springsource.org.objectweb.asm/${springsource-asm-version}@nostart</param>
             <param>mvn:org.apache.commons/com.springsource.org.apache.commons.dbcp/${springsource-commons-dbcp-version}@nostart</param>
+            <param>mvn:net.sourceforge.ehcache/com.springsource.net.sf.ehcache/${springsource-ehcache-version}@nostart</param>
             <param>mvn:xml-resolver/xml-resolver/${xml-resolver-version}@nostart</param>
             <param>mvn:org.apache.activemq/activemq-core/${activemq-version}@nostart</param>
             <param>mvn:org.apache.activemq/kahadb/${activemq-version}@nostart</param>

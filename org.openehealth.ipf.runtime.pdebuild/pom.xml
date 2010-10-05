@@ -189,6 +189,10 @@
             <groupId>javax.wsdl</groupId>
             <artifactId>com.springsource.javax.wsdl</artifactId>
         </dependency>
+        <dependency>
+            <groupId>net.sourceforge.ehcache</groupId>
+            <artifactId>com.springsource.net.sf.ehcache</artifactId>
+        </dependency>
         <!-- END SpringSource-->
         <dependency>
             <groupId>xml-resolver</groupId>

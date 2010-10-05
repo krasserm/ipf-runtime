@@ -78,6 +78,7 @@
         <springsource-commons-pool-version>1.5.3</springsource-commons-pool-version>
         <springsource-derby-version>10.4.1000003.648739</springsource-derby-version>
         <springsource-dom4j-version>1.6.1</springsource-dom4j-version>
+        <springsource-ehcache-version>1.6.2</springsource-ehcache-version>
         <springsource-ejb-api-version>3.0.0</springsource-ejb-api-version>
         <springsource-jasypt-version>1.5.0</springsource-jasypt-version>
         <springsource-javassist-version>3.3.0.ga</springsource-javassist-version>
@@ -337,6 +338,11 @@
             <groupId>javax.wsdl</groupId>
             <artifactId>com.springsource.javax.wsdl</artifactId>
             <version>${springsource-wsdl-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.ehcache</groupId>
+            <artifactId>com.springsource.net.sf.ehcache</artifactId>
+            <version>${springsource-ehcache-version}</version>
         </dependency>
         <!-- END SpringSource-->
         <dependency>
