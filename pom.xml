@@ -19,7 +19,7 @@
         <assembly-plugin-version>2.2-beta-2</assembly-plugin-version>
         <bundle-plugin-version>1.4.3</bundle-plugin-version>
         <enforcer-plugin-version>1.0-beta-1</enforcer-plugin-version>
-        <gmaven-version>1.0</gmaven-version>
+        <gmaven-version>1.2</gmaven-version>
         <html-to-pdf-plugin-version>1.6.0</html-to-pdf-plugin-version>
         <jar-plugin-version>2.2</jar-plugin-version>
         <javadoc-plugin-version>2.5</javadoc-plugin-version>
@@ -36,7 +36,7 @@
         <geronimo-javamail-api-version>1.2</geronimo-javamail-api-version>
         <geronimo-ws-api-version>1.1.2</geronimo-ws-api-version>
         <geronimo-management-spec-version>1.0.1</geronimo-management-spec-version>
-        <groovy-version>1.6.7</groovy-version>
+        <groovy-version>1.7.5</groovy-version>
         <hapi-osgi-version>1.0.1</hapi-osgi-version>
         <hibernate-version>3.2.6.ga</hibernate-version>
         <hibernate-annotations-version>3.3.0.ga</hibernate-annotations-version>
