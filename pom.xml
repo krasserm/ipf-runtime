@@ -95,7 +95,7 @@
         <servlet-api-version>2.5-p1</servlet-api-version>
         <serializer-version>2.7.1-v200806030322</serializer-version>
         <slf4j-version>1.5.0</slf4j-version>
-        <spring-framework-version>3.0.3.RELEASE</spring-framework-version>
+        <spring-framework-version>3.0.4.RELEASE</spring-framework-version>
         <spring-osgi-version>1.2.0</spring-osgi-version>
         <xalan-version>2.7.1-p1</xalan-version>
         <xerces-impl-osgi-version>2.9.0-v200805270400</xerces-impl-osgi-version>
