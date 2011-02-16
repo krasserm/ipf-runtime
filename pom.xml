@@ -47,7 +47,7 @@
         <jetty-version>7.1.6.v20100715</jetty-version>
         <jms-version>1.1-p1</jms-version>
         <joda-time-osgi-version>1.5.2-p1</joda-time-osgi-version>
-        <oht-atna-version>1.1.0-v200912010000</oht-atna-version>
+        <oht-atna-version>1.2.0-v20110214</oht-atna-version>
         <pax-web-version>0.7.2</pax-web-version>
         <servicemix-jaxb-api-version>1.4.0</servicemix-jaxb-api-version>
         <servicemix-jaxws-api-version>1.4.0</servicemix-jaxws-api-version>
