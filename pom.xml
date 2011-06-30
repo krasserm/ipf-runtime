@@ -10,9 +10,9 @@
 
     <properties>
         <!-- Properties needed for headless build -->
-        <eclipse-home>/home/maven/ipf-tools-build/eclipse</eclipse-home>
-        <launcher-name>org.eclipse.equinox.launcher_1.0.200.v20090520.jar</launcher-name>
-        <pde-build-folder>org.eclipse.pde.build_3.5.0.v20090527-1800</pde-build-folder>
+        <eclipse-home>C:/_build/eclipse</eclipse-home>
+        <launcher-name>org.eclipse.equinox.launcher_1.1.0.v20100507.jar</launcher-name>
+        <pde-build-folder>org.eclipse.pde.build_3.6.0.v20100603</pde-build-folder>
 
         <!-- Plugin version properties -->
         <aspectj-plugin-version>1.1</aspectj-plugin-version>
@@ -42,7 +42,7 @@
         <hibernate-annotations-version>3.3.0.ga</hibernate-annotations-version>
         <hibernate-search-version>3.0.1.GA</hibernate-search-version>
         <hibernate-annotations-common-version>3.3.0.ga-p1</hibernate-annotations-common-version>
-        <ipf-version>2.2-SNAPSHOT</ipf-version>
+        <ipf-version>2.2.3</ipf-version>
         <jdom-version>1.0.0</jdom-version>
         <jetty-version>7.1.6.v20100715</jetty-version>
         <jms-version>1.1-p1</jms-version>
@@ -727,6 +727,11 @@
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
+            <artifactId>osgi-config-ihe-xca</artifactId>
+            <version>${ipf-version}</version>
+        </dependency>
+       <dependency>
+            <groupId>org.openehealth.ipf.osgi</groupId>
             <artifactId>osgi-config-ihe-xcpd</artifactId>
             <version>${ipf-version}</version>
         </dependency>
@@ -782,6 +787,11 @@
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
+            <artifactId>commons-ihe-xca</artifactId>
+            <version>${ipf-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openehealth.ipf.commons</groupId>
             <artifactId>commons-ihe-xcpd</artifactId>
             <version>${ipf-version}</version>
         </dependency>
@@ -823,6 +833,11 @@
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
             <artifactId>platform-camel-ihe-ws</artifactId>
+            <version>${ipf-version}</version>
+        </dependency>
+       <dependency>
+            <groupId>org.openehealth.ipf.platform-camel</groupId>
+            <artifactId>platform-camel-ihe-xca</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>

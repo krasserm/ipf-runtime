@@ -1057,6 +1057,13 @@
          unpack="false"/> 
 
       <plugin
+         id="org.openehealth.ipf.osgi.osgi-config-ihe-xca"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+		 
+      <plugin
          id="org.openehealth.ipf.osgi.osgi-config-ihe-xcpd"
          download-size="0"
          install-size="0"
@@ -1133,6 +1140,14 @@
          version="0.0.0"
          unpack="false"/>
 
+      <plugin
+         id="org.openehealth.ipf.commons.commons-ihe-xca"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+		 
       <plugin
          id="org.openehealth.ipf.commons.commons-ihe-xcpd"
          download-size="0"
@@ -1233,6 +1248,13 @@
          version="0.0.0"
          unpack="false"/>
 
+      <plugin
+         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-xca"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+		 
       <plugin
          id="org.openehealth.ipf.platform-camel.platform-camel-ihe-xcpd"
          download-size="0"
