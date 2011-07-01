@@ -4,13 +4,13 @@
     <groupId>org.openehealth.ipf.runtime</groupId>
     <artifactId>runtime-pdebuild</artifactId>
     <name>runtime-pdebuild</name>
-    <version>2.2-SNAPSHOT</version>
+    <version>2.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     
     <parent>
         <groupId>org.openehealth.ipf.runtime</groupId>
         <artifactId>runtime</artifactId>
-        <version>2.2-SNAPSHOT</version>
+        <version>2.3-SNAPSHOT</version>
     </parent>
 
     <dependencies>
