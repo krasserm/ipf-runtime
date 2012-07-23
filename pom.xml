@@ -4,7 +4,7 @@
     <groupId>org.openehealth.ipf.runtime</groupId>
     <artifactId>runtime</artifactId>
     <name>runtime</name>
-    <version>2.3-SNAPSHOT</version>
+    <version>2.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 
@@ -14,12 +14,17 @@
         <launcher-name>org.eclipse.equinox.launcher_1.0.200.v20090520.jar</launcher-name>
         <pde-build-folder>org.eclipse.pde.build_3.5.0.v20090527-1800</pde-build-folder>
 
+        <!-- Properties needed for headless build -->
+        <!--eclipse-home>C:/_build/eclipse</eclipse-home>
+        <launcher-name>org.eclipse.equinox.launcher_1.1.0.v20100507.jar</launcher-name>
+        <pde-build-folder>org.eclipse.pde.build_3.6.0.v20100603</pde-build-folder-->
+
         <!-- Plugin version properties -->
         <aspectj-plugin-version>1.1</aspectj-plugin-version>
         <assembly-plugin-version>2.2-beta-2</assembly-plugin-version>
         <bundle-plugin-version>1.4.3</bundle-plugin-version>
         <enforcer-plugin-version>1.0-beta-1</enforcer-plugin-version>
-        <gmaven-version>1.2</gmaven-version>
+        <gmaven-version>1.3</gmaven-version>
         <html-to-pdf-plugin-version>1.6.0</html-to-pdf-plugin-version>
         <jar-plugin-version>2.2</jar-plugin-version>
         <javadoc-plugin-version>2.5</javadoc-plugin-version>
@@ -27,52 +32,56 @@
         <release-plugin-version>2.0</release-plugin-version>
 
         <!-- Dependency version properties -->
-        <activemq-version>5.3.2</activemq-version>
-        <camel-version>2.5.0</camel-version>
-        <commons-management-version>1.0</commons-management-version>
-        <cxf-version>2.2.11</cxf-version>
+        <activemq-version>5.6.0</activemq-version>
+        <aries-blueprint-version>0.4</aries-blueprint-version>
+        <camel-version>2.9.2</camel-version>
+        <commons-io-version>2.4</commons-io-version>
+        <commons-lang3-version>3.1</commons-lang3-version>
+        <cxf-version>2.6.1</cxf-version>
         <equinox-cm-version>1.0.100-v20090520-1800</equinox-cm-version>
         <fileinstall-version>1.0.0</fileinstall-version>
         <geronimo-javamail-api-version>1.2</geronimo-javamail-api-version>
+        <geronimo-servlet_3.0_spec-version>1.0</geronimo-servlet_3.0_spec-version>
         <geronimo-ws-api-version>1.1.2</geronimo-ws-api-version>
         <geronimo-management-spec-version>1.0.1</geronimo-management-spec-version>
-        <groovy-version>1.7.5</groovy-version>
-        <hapi-osgi-version>1.0.1</hapi-osgi-version>
-        <hibernate-version>3.2.6.ga</hibernate-version>
-        <hibernate-annotations-version>3.3.0.ga</hibernate-annotations-version>
+        <groovy-version>1.7.9</groovy-version>
+        <hapi-osgi-version>1.2</hapi-osgi-version>
+        <hibernate-version>3.3.2.GA</hibernate-version>
+        <hibernate-annotations-version>3.4.0.GA-A</hibernate-annotations-version>
         <hibernate-search-version>3.0.1.GA</hibernate-search-version>
-        <hibernate-annotations-common-version>3.3.0.ga-p1</hibernate-annotations-common-version>
-        <ipf-version>2.2-SNAPSHOT</ipf-version>
+        <hibernate-annotations-common-version>3.3.0.ga</hibernate-annotations-common-version>
+        <hibernate-ejb-version>3.4.0.GA-A</hibernate-ejb-version>
+        <ipf-version>2.4-SNAPSHOT</ipf-version>
         <jdom-version>1.0.0</jdom-version>
-        <jetty-version>7.1.6.v20100715</jetty-version>
+        <jetty-version>7.5.4.v20111024</jetty-version>
         <jms-version>1.1-p1</jms-version>
-        <joda-time-osgi-version>1.5.2-p1</joda-time-osgi-version>
-        <oht-atna-version>1.2.0-v20110214</oht-atna-version>
-        <pax-web-version>0.7.2</pax-web-version>
-        <servicemix-jaxb-api-version>1.4.0</servicemix-jaxb-api-version>
-        <servicemix-jaxws-api-version>1.4.0</servicemix-jaxws-api-version>
+        <joda-time-osgi-version>2.1</joda-time-osgi-version>
+        <oht-atna-version>2.0-v20111211</oht-atna-version>
+        <neethi-version>3.0.2</neethi-version>
+        <pax-web-version>1.1.2</pax-web-version>
+        <servicemix-jaxb-api-version>2.0.0</servicemix-jaxb-api-version>
+        <servicemix-jaxws-api-version>2.0.0</servicemix-jaxws-api-version>
         <servicemix-saaj-api-version>1.4.0</servicemix-saaj-api-version>
         <servicemix-stax-api-version>1.4.0</servicemix-stax-api-version>
         <servicemix-jaxb-impl-version>2.1.12_1</servicemix-jaxb-impl-version>
         <servicemix-mina-version>1.1.7_3</servicemix-mina-version>
-        <servicemix-neethi-version>2.0.4_2</servicemix-neethi-version>
+        <servicemix-saxon-version>9.1.0.8_2</servicemix-saxon-version>
         <servicemix-xmlschema-version>1.4.3_1</servicemix-xmlschema-version>
         <servicemix-xmlsec-version>1.4.3_2</servicemix-xmlsec-version>
         <servicemix-woodstox-version>3.2.8_1</servicemix-woodstox-version>
         <springsource-activation-version>1.1.1</springsource-activation-version>
         <springsource-annotations-api-version>1.0.0</springsource-annotations-api-version>
-        <springsource-antlr-version>2.7.6</springsource-antlr-version>
+        <springsource-antlr-version>2.7.7</springsource-antlr-version>
         <springsource-aopalliance-version>1.0.0</springsource-aopalliance-version>
         <springsource-asm-version>1.5.3</springsource-asm-version>
         <springsource-aspectj-version>1.6.2.RELEASE</springsource-aspectj-version>
-        <springsource-cglib-version>2.1.3</springsource-cglib-version>
+        <springsource-cglib-version>2.2.0</springsource-cglib-version>
         <springsource-commons-cli-version>1.1.0</springsource-commons-cli-version>
         <springsource-commons-codec-version>1.4.0</springsource-commons-codec-version>
         <springsource-commons-collections-version>3.2.0</springsource-commons-collections-version>
         <springsource-commons-dbcp-version>1.2.2.osgi</springsource-commons-dbcp-version>
         <springsource-commons-fileupload-version>1.2.1</springsource-commons-fileupload-version>
         <springsource-commons-httpclient-version>3.1.0</springsource-commons-httpclient-version>
-        <springsource-commons-io-version>1.4.0</springsource-commons-io-version>
         <springsource-commons-lang-version>2.5.0</springsource-commons-lang-version>
         <springsource-commons-logging-version>1.1.1</springsource-commons-logging-version>
         <springsource-commons-pool-version>1.5.3</springsource-commons-pool-version>
@@ -81,22 +90,24 @@
         <springsource-ehcache-version>1.6.2</springsource-ehcache-version>
         <springsource-ejb-api-version>3.0.0</springsource-ejb-api-version>
         <springsource-jasypt-version>1.5.0</springsource-jasypt-version>
-        <springsource-javassist-version>3.3.0.ga</springsource-javassist-version>
+        <springsource-javassist-version>3.15.0.GA</springsource-javassist-version>
         <springsource-junit-version>4.4.0</springsource-junit-version>
-        <springsource-log4j-version>1.2.15</springsource-log4j-version>
+        <springsource-log4j-version>1.2.16</springsource-log4j-version>
         <springsource-lucene-version>2.3.0</springsource-lucene-version>
-        <springsource-persistence-api-version>1.0.0</springsource-persistence-api-version>
+        <springsource-persistence-api-version>1.99.0</springsource-persistence-api-version>
         <springsource-quartz-version>1.6.2</springsource-quartz-version>
         <springsource-rpc-api-version>1.1.0</springsource-rpc-api-version>
         <springsource-soap-api-version>1.3.0</springsource-soap-api-version>
         <springsource-transaction-api-version>1.1.0</springsource-transaction-api-version>
         <springsource-wsdl-version>1.6.1</springsource-wsdl-version>
-        <saxon-osgi-version>9.1.0.1-p1</saxon-osgi-version>
-        <servlet-api-version>2.5-p1</servlet-api-version>
+        <saxon-osgi-version>9.1.0.8_2</saxon-osgi-version>
         <serializer-version>2.7.1-v200806030322</serializer-version>
-        <slf4j-version>1.5.0</slf4j-version>
-        <spring-framework-version>3.0.4.RELEASE</spring-framework-version>
-        <spring-osgi-version>1.2.0</spring-osgi-version>
+        <slf4j-version>1.6.6</slf4j-version>
+        <spring-framework-version>3.0.7.RELEASE</spring-framework-version>
+        <spring-osgi-version>1.2.1</spring-osgi-version>
+        <stax2-api-version>3.1.1</stax2-api-version>
+        <woodstox-core-asl-version>4.1.1</woodstox-core-asl-version>
+        <ws-xmlschema-version>2.0.1</ws-xmlschema-version>
         <xalan-version>2.7.1-p1</xalan-version>
         <xerces-impl-osgi-version>2.9.0-v200805270400</xerces-impl-osgi-version>
         <xml-apis-version>1.3.4-v200806030440</xml-apis-version>
@@ -127,6 +138,26 @@
             <groupId>javax.persistence</groupId>
             <artifactId>com.springsource.javax.persistence</artifactId>
             <version>${springsource-persistence-api-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.blueprint</groupId>
+            <artifactId>org.apache.aries.blueprint</artifactId>
+            <version>${aries-blueprint-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.proxy</groupId>
+            <artifactId>org.apache.aries.proxy.api</artifactId>
+            <version>${aries-blueprint-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries.proxy</groupId>
+            <artifactId>org.apache.aries.proxy.impl</artifactId>
+            <version>${aries-blueprint-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.aries</groupId>
+            <artifactId>org.apache.aries.util</artifactId>
+            <version>${aries-blueprint-version}</version>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -189,14 +220,19 @@
             <version>${springsource-commons-httpclient-version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>com.springsource.org.apache.commons.io</artifactId>
-            <version>${springsource-commons-io-version}</version>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io-version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>com.springsource.org.apache.commons.lang</artifactId>
             <version>${springsource-commons-lang-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3-version}</version>
         </dependency>
         <dependency>
             <!-- for IPM -->
@@ -236,17 +272,17 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>com.springsource.slf4j.api</artifactId>
+            <artifactId>slf4j-api</artifactId>
             <version>${slf4j-version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>com.springsource.slf4j.log4j</artifactId>
+            <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j-version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>com.springsource.slf4j.org.apache.commons.logging</artifactId>
+            <artifactId>jcl-over-slf4j</artifactId>
             <version>${slf4j-version}</version>
         </dependency>
         <!--dependency>
@@ -318,6 +354,11 @@
             <groupId>org.hibernate</groupId>
             <artifactId>com.springsource.org.hibernate.annotations.common</artifactId>
             <version>${hibernate-annotations-common-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>com.springsource.org.hibernate.ejb</artifactId>
+            <version>${hibernate-ejb-version}</version>
         </dependency>
         <dependency>
             <groupId>javax.xml.soap</groupId>
@@ -400,11 +441,6 @@
             <artifactId>cxf-bundle</artifactId>
             <version>${cxf-version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.fusesource.commonman</groupId>
-            <artifactId>commons-management</artifactId>
-            <version>${commons-management-version}</version>
-        </dependency>
 
         <!-- servicemixe bundles-->
         <dependency>
@@ -428,9 +464,9 @@
             <version>${servicemix-woodstox-version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.servicemix.bundles</groupId>
-            <artifactId>org.apache.servicemix.bundles.neethi</artifactId>
-            <version>${servicemix-neethi-version}</version>
+            <groupId>org.apache.neethi</groupId>
+            <artifactId>neethi</artifactId>
+            <version>${neethi-version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
@@ -463,6 +499,11 @@
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-javamail_1.4_spec</artifactId>
             <version>${geronimo-javamail-api-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-servlet_3.0_spec</artifactId>
+            <version>${geronimo-servlet_3.0_spec-version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -639,6 +680,21 @@
             <version>${xml-apis-version}</version>
         </dependency>
         <dependency>
+            <groupId>org.codehaus.woodstox</groupId>
+            <artifactId>stax2-api</artifactId>
+            <version>${stax2-api-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.woodstox</groupId>
+            <artifactId>woodstox-core-asl</artifactId>
+            <version>${woodstox-core-asl-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ws.xmlschema</groupId>
+            <artifactId>xmlschema-core</artifactId>
+            <version>${ws-xmlschema-version}</version>
+        </dependency>
+        <dependency>
             <groupId>xalan</groupId>
             <artifactId>xalan</artifactId>
             <version>${xalan-version}</version>
@@ -649,13 +705,8 @@
             <version>${joda-time-osgi-version}</version>
         </dependency>
         <dependency>
-            <groupId>net.sf.saxon</groupId>
-            <artifactId>saxon</artifactId>
-            <version>${saxon-osgi-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>net.sf.saxon</groupId>
-            <artifactId>saxon-dom</artifactId>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.saxon</artifactId>
             <version>${saxon-osgi-version}</version>
         </dependency>
         <dependency>
@@ -670,214 +721,184 @@
         </dependency>
         <dependency>
             <groupId>org.ops4j.pax.web</groupId>
-            <artifactId>pax-web-jetty-bundle</artifactId>
+            <artifactId>pax-web-jetty</artifactId>
             <version>${pax-web-version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.ops4j.pax.web</groupId>
+            <artifactId>pax-web-runtime</artifactId>
+            <version>${pax-web-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ops4j.pax.web</groupId>
+            <artifactId>pax-web-spi</artifactId>
+            <version>${pax-web-version}</version>
+        </dependency>
+		
         <!-- IPF -->
         <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-commons</artifactId>
+            <artifactId>ipf-osgi-commons</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-extender-spring</artifactId>
+            <artifactId>ipf-osgi-extender-spring</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-extender-basic</artifactId>
+            <artifactId>ipf-osgi-extender-basic</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-flow-repository</artifactId>
+            <artifactId>ipf-osgi-config-flow-repository</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-flow-manager</artifactId>
+            <artifactId>ipf-osgi-config-flow-manager</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-log</artifactId>
+            <artifactId>ipf-osgi-config-log</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-jms</artifactId>
+            <artifactId>ipf-osgi-config-jms</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-ihe-atna</artifactId>
+            <artifactId>ipf-osgi-config-ihe-atna</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-ihe-pixpdq</artifactId>
+            <artifactId>ipf-osgi-config-ihe-hl7v2</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-ihe-pixpdqv3</artifactId>
+            <artifactId>ipf-osgi-config-ihe-hl7v3</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-ihe-xca</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-       <dependency>
-            <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-ihe-xcpd</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-       <dependency>
-            <groupId>org.openehealth.ipf.osgi</groupId>
-            <artifactId>osgi-config-ihe-xds</artifactId>
+            <artifactId>ipf-osgi-config-ihe-xds</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-core</artifactId>
+            <artifactId>ipf-commons-core</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-flow</artifactId>
+            <artifactId>ipf-commons-flow</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-map</artifactId>
+            <artifactId>ipf-commons-map</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-xml</artifactId>
+            <artifactId>ipf-commons-xml</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-atna</artifactId>
+            <artifactId>ipf-commons-ihe-core</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-pixpdq</artifactId>
+            <artifactId>ipf-commons-ihe-hl7v2</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-pixpdqv3</artifactId>
+            <artifactId>ipf-commons-ihe-hl7v3</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-hl7v2ws</artifactId>
+            <artifactId>ipf-commons-ihe-hl7v2ws</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-hl7v3</artifactId>
+            <artifactId>ipf-commons-ihe-xds</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-xca</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-xcpd</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-xds</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openehealth.ipf.commons</groupId>
-            <artifactId>commons-ihe-ws</artifactId>
+            <artifactId>ipf-commons-ihe-ws</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.modules</groupId>
-            <artifactId>modules-hl7</artifactId>
+            <artifactId>ipf-modules-hl7</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.modules</groupId>
-            <artifactId>modules-hl7dsl</artifactId>
+            <artifactId>ipf-modules-hl7dsl</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-flow</artifactId>
+            <artifactId>ipf-platform-camel-flow</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-core</artifactId>
+            <artifactId>ipf-platform-camel-core</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-hl7</artifactId>
+            <artifactId>ipf-platform-camel-hl7</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-ws</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-       <dependency>
-            <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-xca</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-       <dependency>
-            <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-xcpd</artifactId>
+            <artifactId>ipf-platform-camel-ihe-ws</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-xds</artifactId>
+            <artifactId>ipf-platform-camel-ihe-xds</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-mllp</artifactId>
+            <artifactId>ipf-platform-camel-ihe-mllp</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-hl7v2</artifactId>
+            <artifactId>ipf-platform-camel-ihe-hl7v2</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-hl7v2ws</artifactId>
+            <artifactId>ipf-platform-camel-ihe-hl7v2ws</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-pixpdq</artifactId>
+            <artifactId>ipf-platform-camel-ihe-hl7v3</artifactId>
             <version>${ipf-version}</version>
         </dependency>
        <dependency>
             <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-pixpdqv3</artifactId>
-            <version>${ipf-version}</version>
-        </dependency>
-       <dependency>
-            <groupId>org.openehealth.ipf.platform-camel</groupId>
-            <artifactId>platform-camel-ihe-atna</artifactId>
+            <artifactId>ipf-platform-camel-ihe-atna</artifactId>
             <version>${ipf-version}</version>
         </dependency>
         <!-- END IPF-->
@@ -918,14 +939,28 @@
                     <version>${aspectj-plugin-version}</version>
                 </plugin>
                 <plugin>
-                    <groupId>org.codehaus.groovy.maven</groupId>
+                    <groupId>org.codehaus.gmaven</groupId>
                     <artifactId>gmaven-plugin</artifactId>
                     <version>${gmaven-version}</version>
+                    <configuration>
+                        <providerSelection>1.7</providerSelection>
+                    </configuration>
                     <dependencies>
                         <dependency>
-                            <groupId>org.codehaus.groovy.maven.runtime</groupId>
-                            <artifactId>gmaven-runtime-1.6</artifactId>
+                            <groupId>org.codehaus.gmaven.runtime</groupId>
+                            <artifactId>gmaven-runtime-1.7</artifactId>
                             <version>${gmaven-version}</version>
+                            <exclusions>
+                                <exclusion>
+                                    <groupId>org.codehaus.groovy</groupId>
+                                    <artifactId>groovy-all</artifactId>
+                                </exclusion>
+                            </exclusions>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.codehaus.groovy</groupId>
+                            <artifactId>groovy-all</artifactId>
+                            <version>${groovy-version}</version>
                         </dependency>
                     </dependencies>
                 </plugin>

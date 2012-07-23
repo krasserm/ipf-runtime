@@ -345,21 +345,21 @@
          unpack="false"/>
 
       <plugin
-         id="com.springsource.slf4j.api"
+         id="slf4j.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 		 
       <plugin
-         id="com.springsource.slf4j.log4j"
+         id="slf4j.log4j12"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="com.springsource.slf4j.org.apache.commons.logging"
+         id="jcl.over.slf4j"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -485,7 +485,7 @@
          unpack="false"/>
 
       <plugin
-         id="com.springsource.org.apache.commons.io"
+         id="org.apache.commons.io"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -604,13 +604,6 @@
          unpack="false"/>
 
       <plugin
-         id="commons-management"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
          id="com.springsource.javax.wsdl"
          download-size="0"
          install-size="0"
@@ -653,7 +646,7 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.servicemix.bundles.neethi"
+         id="org.apache.neethi"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -940,24 +933,17 @@
          unpack="false"/>
 
       <plugin
-         id="org.joda.time"
+         id="joda-time"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="net.sf.saxon"
+         id="org.apache.servicemix.bundles.saxon"
          download-size="0"
          install-size="0"
-         version="9.1.0.1-p1"
-         unpack="false"/>
-
-      <plugin
-         id="net.sf.saxon.dom"
-         download-size="0"
-         install-size="0"
-         version="9.1.0.1-p1"
+         version="0.0.0"
          unpack="false"/>
 
       <plugin
@@ -975,51 +961,42 @@
          unpack="false"/>
 
       <plugin
-         id="org.ops4j.pax.web.pax-web-jetty-bundle"
+         id="org.ops4j.pax.web.pax-web-jetty"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-commons"
+         id="org.ops4j.pax.web.pax-web-runtime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+		 
+      <plugin
+         id="org.ops4j.pax.web.pax-web-spi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+		 
+      <plugin
+         id="org.openehealth.ipf.osgi.ipf-osgi-commons"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-extender-basic"
+         id="org.openehealth.ipf.osgi.ipf-osgi-extender-basic"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-extender-spring"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-		 fragment="true"
-         unpack="false"/>
-
-      <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-jms"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-flow-repository"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-		 fragment="true"
-         unpack="false"/>
-
-      <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-flow-manager"
+         id="org.openehealth.ipf.osgi.ipf-osgi-extender-spring"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1027,7 +1004,30 @@
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-log"
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-jms"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-flow-repository"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+		 fragment="true"
+         unpack="false"/>
+
+      <plugin
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-flow-manager"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+		 fragment="true"
+         unpack="false"/>
+
+      <plugin
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-log"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1035,7 +1035,7 @@
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-ihe-atna"
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-ihe-atna"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1043,121 +1043,84 @@
          unpack="false"/> 
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-ihe-pixpdq"
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-ihe-hl7v2"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>		 
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-ihe-pixpdqv3"
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-ihe-hl7v3"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/> 
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-ihe-xca"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-		 
-      <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-ihe-xcpd"
+         id="org.openehealth.ipf.osgi.ipf-osgi-config-ihe-xds"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.osgi.osgi-config-ihe-xds"
+         id="org.openehealth.ipf.commons.ipf-commons-core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-core"
+         id="org.openehealth.ipf.commons.ipf-commons-xml"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-xml"
+         id="org.openehealth.ipf.commons.ipf-commons-flow"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-flow"
+         id="org.openehealth.ipf.commons.ipf-commons-map"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-map"
+         id="org.openehealth.ipf.commons.ipf-commons-ihe-core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-atna"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-pixpdq"
+         id="org.openehealth.ipf.commons.ipf-commons-ihe-hl7v2"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
  
       <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-pixpdqv3"
+         id="org.openehealth.ipf.commons.ipf-commons-ihe-hl7v3"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-hl7v2ws"
+         id="org.openehealth.ipf.commons.ipf-commons-ihe-hl7v2ws"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 		 
       <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-hl7v3"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-xca"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-		 
-      <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-xcpd"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
- 
-      <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-xds"
+         id="org.openehealth.ipf.commons.ipf-commons-ihe-xds"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -1165,112 +1128,91 @@
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.commons.commons-ihe-ws"
+         id="org.openehealth.ipf.commons.ipf-commons-ihe-ws"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
  
       <plugin
-         id="org.openehealth.ipf.modules.modules-hl7"
+         id="org.openehealth.ipf.modules.ipf-modules-hl7"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.modules.modules-hl7dsl"
+         id="org.openehealth.ipf.modules.ipf-modules-hl7dsl"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-flow"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-flow"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-core"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/> 
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-hl7"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-hl7"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-atna"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-atna"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-mllp"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-mllp"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/> 
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-hl7v2"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-hl7v2"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-hl7v2ws"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-		 
-      <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-pixpdq"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-hl7v2ws"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-pixpdqv3"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-hl7v3"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-xca"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-		 
-      <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-xcpd"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-xds"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-xds"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
      <plugin
-         id="org.openehealth.ipf.platform-camel.platform-camel-ihe-ws"
+         id="org.openehealth.ipf.platform-camel.ipf-platform-camel-ihe-ws"
          download-size="0"
          install-size="0"
          version="0.0.0"
