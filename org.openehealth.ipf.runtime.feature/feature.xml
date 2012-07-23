@@ -520,7 +520,7 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.xml.resolver"
+         id="org.apache.servicemix.bundles.xmlresolver"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -667,6 +667,13 @@
          unpack="false"/>
 
       <plugin
+        id="org.apache.servicemix.specs.jaxp-api-1.4"
+        download-size="0"
+        install-size="0"
+        version="0.0.0"
+        unpack="false"/>
+
+      <plugin
          id="org.apache.servicemix.specs.jaxws-api-2.1"
          download-size="0"
          install-size="0"
@@ -688,21 +695,21 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.xerces"
+         id="org.apache.servicemix.bundles.xalan"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
       <plugin
-         id="org.apache.xerces"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+        id="org.apache.servicemix.bundles.xalan-serializer"
+        download-size="0"
+        install-size="0"
+        version="0.0.0"
+        unpack="false"/>
 
       <plugin
-         id="org.apache.xml.serializer"
+         id="org.apache.servicemix.bundles.xerces"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -913,20 +920,6 @@
 
       <plugin
          id="javax.jms"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="javax.xml"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="xalan"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -7,6 +7,6 @@ JMX_OPTS="${JMX_OPTS} -Dcom.sun.management.jmxremote.authenticate=false"
 JMX_OPTS="${JMX_OPTS} -Dcom.sun.management.jmxremote.ssl=false"
 
 JVM_OPTS=
-JVM_OPTS="${JVM_OPTS} -Dosgi.classloader.lock=classname"
+JVM_OPTS="${JVM_OPTS} -Dosgi.classloader.lock=classname -Dosgi.java.profile.bootdelegation=override"
 
-exec $JAVA_HOME/bin/java $JVM_OPTS $JMX_OPTS -jar bundles/org.eclipse.osgi_3.5.1.R35x_v20090827.jar -configuration equinox -console 
+exec $JAVA_HOME/bin/java $JVM_OPTS $JMX_OPTS -jar bundles/org.eclipse.osgi_3.6.2.R36x_v20110210.jar -configuration equinox -console
