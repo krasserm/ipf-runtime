@@ -666,12 +666,26 @@
          version="0.0.0"
          unpack="false"/>
 
-      <plugin
+      <!--plugin
         id="org.apache.servicemix.specs.jaxp-api-1.4"
         download-size="0"
         install-size="0"
         version="0.0.0"
-        unpack="false"/>
+        unpack="false"/-->
+
+      <plugin
+         id="javax.xml"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.servicemix.specs.stax-api-1.0"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
       <plugin
          id="org.apache.servicemix.specs.jaxws-api-2.1"
