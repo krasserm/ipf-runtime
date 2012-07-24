@@ -309,10 +309,6 @@
             <groupId>org.apache.servicemix.specs</groupId>
             <artifactId>org.apache.servicemix.specs.jaxb-api-2.1</artifactId>
         </dependency>
-        <!--dependency>
-            <groupId>org.apache.servicemix.specs</groupId>
-            <artifactId>org.apache.servicemix.specs.jaxp-api-1.4</artifactId>
-        </dependency-->
         <dependency>
             <groupId>xml-apis</groupId>
             <artifactId>xml-apis</artifactId>
