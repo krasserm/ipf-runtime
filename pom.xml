@@ -39,7 +39,7 @@
         <geronimo-servlet_3.0_spec-version>1.0</geronimo-servlet_3.0_spec-version>
         <geronimo-ws-api-version>1.1.2</geronimo-ws-api-version>
         <geronimo-management-spec-version>1.0.1</geronimo-management-spec-version>
-        <groovy-version>1.7.9</groovy-version>
+        <groovy-version>1.8.7</groovy-version>
         <hapi-osgi-version>1.2</hapi-osgi-version>
         <hibernate-version>3.3.2.GA</hibernate-version>
         <hibernate-annotations-version>3.4.0.GA-A</hibernate-annotations-version>
