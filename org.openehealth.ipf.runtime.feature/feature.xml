@@ -224,7 +224,14 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-		 
+
+      <plugin
+         id="osgi.cmpn"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
       <plugin
          id="com.springsource.javax.persistence"
          download-size="0"
@@ -499,7 +506,7 @@
          unpack="false"/>
 
       <plugin
-         id="com.springsource.org.apache.commons.codec"
+         id="org.apache.commons.codec"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -590,7 +597,77 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.cxf.bundle"
+         id="org.apache.cxf.cxf-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-bindings-soap"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-bindings-xml"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-ws-addr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-ws-policy"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-frontend-simple"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-databinding-jaxb"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-frontend-jaxws"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-transports-http"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.cxf.cxf-rt-transports-http-jetty"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -604,7 +681,7 @@
          unpack="false"/>
 
       <plugin
-         id="com.springsource.javax.wsdl"
+         id="org.apache.servicemix.bundles.wsdl4j"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -660,7 +737,14 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.servicemix.specs.jaxb-api-2.1"
+         id="org.apache.servicemix.specs.jaxb-api-2.2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.servicemix.bundles.jaxb-xjc"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -681,7 +765,7 @@
          unpack="false"/>
 
       <plugin
-         id="org.apache.servicemix.specs.jaxws-api-2.1"
+         id="org.apache.servicemix.specs.jaxws-api-2.2"
          download-size="0"
          install-size="0"
          version="0.0.0"
