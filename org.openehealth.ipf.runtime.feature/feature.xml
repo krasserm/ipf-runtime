@@ -330,6 +330,13 @@
          version="0.0.0"
          unpack="false"/>
 
+    <plugin
+            id="org.apache.commons.lang3"
+            download-size="0"
+            install-size="0"
+            version="0.0.0"
+            unpack="false"/>
+
       <plugin
          id="com.springsource.org.apache.lucene"
          download-size="0"
@@ -723,6 +730,13 @@
          unpack="false"/>
 
       <plugin
+         id="org.apache.ws.xmlschema.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
          id="org.apache.neethi"
          download-size="0"
          install-size="0"
@@ -1050,14 +1064,43 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-		 
+
+
       <plugin
          id="org.ops4j.pax.web.pax-web-spi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-		 
+
+      <plugin
+         id="org.apache.aries.blueprint"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.aries.proxy.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.aries.proxy.impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+      <plugin
+         id="org.apache.aries.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
       <plugin
          id="org.openehealth.ipf.osgi.ipf-osgi-commons"
          download-size="0"
