@@ -14,6 +14,10 @@
         <launcher-name>org.eclipse.equinox.launcher_1.0.200.v20090520.jar</launcher-name>
         <pde-build-folder>org.eclipse.pde.build_3.5.0.v20090527-1800</pde-build-folder>
 
+        <!--eclipse-home>/_build/eclipse</eclipse-home>
+        <launcher-name>org.eclipse.equinox.launcher_1.1.0.v20100507.jar</launcher-name>
+        <pde-build-folder>org.eclipse.pde.build_3.6.0.v20100603</pde-build-folder-->
+
         <!-- Plugin version properties -->
         <aspectj-plugin-version>1.1</aspectj-plugin-version>
         <assembly-plugin-version>2.2-beta-2</assembly-plugin-version>
@@ -24,7 +28,7 @@
         <jar-plugin-version>2.2</jar-plugin-version>
         <javadoc-plugin-version>2.5</javadoc-plugin-version>
         <pax-plugin-version>1.4</pax-plugin-version>
-        <release-plugin-version>2.0</release-plugin-version>
+        <release-plugin-version>2.3.2</release-plugin-version>
 
         <!-- Dependency version properties -->
         <activemq-version>5.6.0</activemq-version>
