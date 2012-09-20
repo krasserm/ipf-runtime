@@ -51,7 +51,7 @@
         <hibernate-search-version>3.0.1.GA</hibernate-search-version>
         <hibernate-annotations-common-version>3.3.0.ga</hibernate-annotations-common-version>
         <hibernate-ejb-version>3.4.0.GA-A</hibernate-ejb-version>
-        <ipf-version>2.4-SNAPSHOT</ipf-version>
+        <ipf-version>2.4.0</ipf-version>
         <jdom-version>1.0.0</jdom-version>
         <jetty-version>7.5.4.v20111024</jetty-version>
         <jms-version>1.1-p1</jms-version>
