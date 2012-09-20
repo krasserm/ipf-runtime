@@ -126,7 +126,8 @@
         <connection>scm:git:git@github.com:krasserm/ipf-runtime.git</connection>
         <developerConnection>scm:git:git@github.com:krasserm/ipf-runtime.git</developerConnection>
         <url>scm:git:git@github.com:krasserm/ipf-runtime.git</url>
-    </scm>
+      <tag>ipf-runtime-2.4</tag>
+  </scm>
 
 
     <dependencyManagement>
