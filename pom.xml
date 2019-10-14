@@ -53,7 +53,7 @@
         <hibernate-ejb-version>3.4.0.GA-A</hibernate-ejb-version>
         <ipf-version>2.4-SNAPSHOT</ipf-version>
         <jdom-version>1.0.0</jdom-version>
-        <jetty-version>7.5.4.v20111024</jetty-version>
+        <jetty-version>9.4.21.v20190926</jetty-version>
         <jms-version>1.1-p1</jms-version>
         <joda-time-osgi-version>2.1</joda-time-osgi-version>
         <oht-atna-version>2.0.0</oht-atna-version>
